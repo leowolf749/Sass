@@ -1,0 +1,34 @@
+$primary-font-family: "ff-enzo-web",tahoma,sans-serif;
+$primary-font-size: .85em;
+$primary-font-color: white;
+$secondary-font-color: black;
+$tertiary-font-color: darkgray;
+$primary-bg-color: whitesmoke;
+$primary-display: block;
+$secondary-display: inline-block;
+$margin: 0px;
+
+
+footer {
+    display: $primary-display;
+    background-color: $primary-bg-color;
+
+    .copyright, p {
+        display: inline;
+        position: relative;
+        left: 80px;
+        bottom: 30px;
+    }
+
+    .copyright {
+        margin-right: 0px;
+        padding: 0px;
+        height: 8px;
+    }
+
+    p {
+        color: gray;
+        font-size: .7em;
+        margin: 3px;
+    }
+}

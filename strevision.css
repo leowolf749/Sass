@@ -100,16 +100,98 @@ main {
   display: block; }
   main .accessories {
     display: block; }
-  main #container {
-    display: inline-block;
-    height: 257px; }
-  main .image {
-    float: left;
-    position: absolute;
+    main .accessories #container {
+      display: flex;
+      height: 257px; }
+      main .accessories #container .image {
+        position: relative;
+        left: 80px;
+        height: 200px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+        border: 1px solid lightgray; }
+  main .story {
+    display: block;
+    width: 100%;
+    border-bottom-width: 100%;
+    border-bottom: 3px dotted lightgray;
+    margin-top: 80px;
+    text-align: center; }
+    main .story h2 {
+      display: block;
+      font-size: 2em;
+      font-style: italic;
+      font-weight: 300;
+      margin-top: 0px;
+      padding: 0px; }
+    main .story a {
+      display: block;
+      margin-bottom: 70px;
+      color: dodgerblue;
+      text-decoration: none; }
+  main .news {
+    display: block; }
+    main .news h3 {
+      font-size: 1em; }
+    main .news #weekly, main .news #loop, main .news #quarter, main .news #guide {
+      float: left;
+      position: relative;
+      left: 80px;
+      width: 20%;
+      margin-left: 0px;
+      margin-right: 3%;
+      margin-top: 30px;
+      margin-bottom: 40px; }
+      main .news #weekly .weekly, main .news #weekly .guide, main .news #loop .weekly, main .news #loop .guide, main .news #quarter .weekly, main .news #quarter .guide, main .news #guide .weekly, main .news #guide .guide {
+        display: block;
+        height: 140px;
+        margin: 0px;
+        border: 1px solid lightgray;
+        border-radius: 2px; }
+      main .news #weekly a, main .news #loop a, main .news #quarter a, main .news #guide a {
+        font-size: .84em;
+        text-decoration: none; }
+      main .news #weekly p, main .news #loop p, main .news #quarter p, main .news #guide p {
+        color: black; }
+      main .news #weekly #email, main .news #loop #email, main .news #quarter #email, main .news #guide #email {
+        margin-top: 10px;
+        border-radius: 2px; }
+      main .news #weekly button, main .news #loop button, main .news #quarter button, main .news #guide button {
+        margin-top: 10px;
+        background-color: dodgerblue;
+        color: white;
+        border-radius: 3px; }
+  main .links {
+    display: block;
+    height: 220px;
+    background-color: whitesmoke; }
+    main .links h4 {
+      font-size: .9em;
+      margin: 0px; }
+    main .links #shop, main .links #about, main .links #style, main .links #help {
+      float: left;
+      position: absolute;
+      width: 10%;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 30px;
+      margin-bottom: 40px; }
+
+footer {
+  display: block;
+  background-color: whitesmoke; }
+  footer .copyright, footer p {
+    display: inline;
+    position: relative;
     left: 80px;
-    height: 200px;
-    margin-bottom: 0px;
-    margin-right: 20px;
-    border: 1px solid lightgray; }
+    bottom: 30px; }
+  footer .copyright {
+    margin-right: 0px;
+    padding: 0px;
+    height: 8px; }
+  footer p {
+    color: gray;
+    font-size: .7em;
+    margin: 3px; }
 
 /*# sourceMappingURL=strevision.css.map */
