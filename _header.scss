@@ -124,21 +124,31 @@ header {
 
     .ties {
         display: block;
+        color: $secondary-font-color;
         background-color: $primary-bg-color;
 
         #styles {
             
             li{
                 float: left;
-                margin: $margin;
+                list-style-type: none;
+                margin-bottom: 50px;
                 width: 10%;
-                padding-left: 0px;
+                padding-left: 10px;
                 vertical-align: top;
-            }
 
-            p {
-                display: block;
+                .label {
+                    text-align: center;
+                }
             }
+        }
+
+        h1 {
+           display: block;
+           padding: 50px;
+           font-size: 3em;
+           font-weight: 300;
+           text-align: center; 
         }
     }    
 

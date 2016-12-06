@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+  font-family: "ff-enzo-web", tahoma, sans-serif; }
+
 header {
   display: block;
   color: white;
@@ -74,18 +78,38 @@ header {
         margin-top: 3px; }
   header .ties {
     display: block;
+    color: black;
     background-color: whitesmoke; }
     header .ties #styles li {
       float: left;
-      margin: 0px;
+      list-style-type: none;
+      margin-bottom: 50px;
       width: 10%;
-      padding-left: 0px;
+      padding-left: 10px;
       vertical-align: top; }
-    header .ties #styles p {
-      display: block; }
+      header .ties #styles li .label {
+        text-align: center; }
+    header .ties h1 {
+      display: block;
+      padding: 50px;
+      font-size: 3em;
+      font-weight: 300;
+      text-align: center; }
 
-body {
-  margin: 0px;
-  font-family: "ff-enzo-web", tahoma, sans-serif; }
+main {
+  display: block; }
+  main .accessories {
+    display: block; }
+  main #container {
+    display: inline-block;
+    height: 257px; }
+  main .image {
+    float: left;
+    position: absolute;
+    left: 80px;
+    height: 200px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    border: 1px solid lightgray; }
 
 /*# sourceMappingURL=strevision.css.map */
