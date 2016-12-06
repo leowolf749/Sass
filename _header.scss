@@ -1,0 +1,104 @@
+$primary-font-family: "ff-enzo-web",tahoma,sans-serif;
+$primary-font-size: .85em;
+$primary-font-color: white;
+$secondary-font-color: black;
+$primary-display: flex;
+$margin: 0px;
+
+
+
+body {
+    margin: 0px;
+    font-family: $primary-font-family
+}
+
+header {
+    display: block;
+    color: $primary-font-color;
+    font-size: $primary-font-size;
+    width:100%;
+
+    
+    .sale {
+        display: $primary-display;
+        background-color: orangered;
+        padding: 5px;
+
+        .free {
+            display: $primary-display;
+            margin: $margin;
+            margin-left: 10%;
+            margin-right: 2%;
+            background-color: darkred;
+        }
+
+        .save {
+            display: $primary-display;
+            justify-content: space-between;
+            margin-top: 0px;
+            width: 45%;
+        }
+    }     
+    
+    nav {
+        display: block;
+
+
+        .logo {
+            display: inline-block;
+            margin-left: 9.5%;
+            width: 15%;
+        }
+
+            #logo {
+                width: 100%;
+            }
+
+        #menu {
+            display: inline-block;
+            width: 50%;
+            margin: 0px;
+
+            padding: 0px;
+
+            list-style-type: none;
+            
+
+            li {
+                display: inline-block;
+                font-size: 1.5em;
+                color: $secondary-font-color;
+                margin: 0px;
+                padding: 3%;
+                vertical-align: top;
+            }
+            
+        }
+
+        #cart {
+            display: inline-block;
+            width: 110px;
+            height: 35px;
+            margin-top: 60px;
+            margin-left: 120px;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+
+            .cart {
+                width: 15%;
+            }
+
+            div .count {
+                background-color: lightgray;
+                padding: 0px;
+                vertical-align: middle;
+            }
+        }
+
+        
+    }    
+
+    
+}
+
+
