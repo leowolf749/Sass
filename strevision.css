@@ -1,7 +1,3 @@
-body {
-  margin: 0px;
-  font-family: "ff-enzo-web", tahoma, sans-serif; }
-
 header {
   display: block;
   color: white;
@@ -48,14 +44,48 @@ header {
       width: 110px;
       height: 35px;
       margin-top: 60px;
-      margin-left: 120px;
+      margin-left: 5px;
       border: 1px solid lightgray;
       border-radius: 3px; }
       header nav #cart .cart {
-        width: 15%; }
-      header nav #cart div .count {
+        width: 10%; }
+      header nav #cart p {
+        display: inline;
+        color: darkgray; }
+      header nav #cart .count {
+        display: inline;
         background-color: lightgray;
+        width: 5%;
         padding: 0px;
         vertical-align: middle; }
+    header nav .search {
+      display: inline-block;
+      margin-top: 63px;
+      margin-left: 1%;
+      border: 1px solid lightgray;
+      border-radius: 2px; }
+      header nav .search input {
+        display: inline;
+        margin-bottom: 4px;
+        border: none; }
+      header nav .search #tool {
+        display: inline;
+        width: 15px;
+        margin-top: 3px; }
+  header .ties {
+    display: block;
+    background-color: whitesmoke; }
+    header .ties #styles li {
+      float: left;
+      margin: 0px;
+      width: 10%;
+      padding-left: 0px;
+      vertical-align: top; }
+    header .ties #styles p {
+      display: block; }
+
+body {
+  margin: 0px;
+  font-family: "ff-enzo-web", tahoma, sans-serif; }
 
 /*# sourceMappingURL=strevision.css.map */

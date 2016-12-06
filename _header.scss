@@ -2,15 +2,12 @@ $primary-font-family: "ff-enzo-web",tahoma,sans-serif;
 $primary-font-size: .85em;
 $primary-font-color: white;
 $secondary-font-color: black;
+$tertiary-font-color: darkgray;
+$primary-bg-color: whitesmoke;
 $primary-display: flex;
 $margin: 0px;
 
 
-
-body {
-    margin: 0px;
-    font-family: $primary-font-family
-}
 
 header {
     display: block;
@@ -80,22 +77,69 @@ header {
             width: 110px;
             height: 35px;
             margin-top: 60px;
-            margin-left: 120px;
+            margin-left: 5px;
             border: 1px solid lightgray;
             border-radius: 3px;
 
             .cart {
-                width: 15%;
+                width: 10%;
             }
 
-            div .count {
+            p {
+                display: inline;
+                color: $tertiary-font-color;
+            }
+
+            .count {
+                display: inline;
                 background-color: lightgray;
+                width: 5%;
                 padding: 0px;
                 vertical-align: middle;
             }
         }
 
+        .search {
+            display: $secondary-display;
+            margin-top: 63px;
+            margin-left: 1%;
+            border: 1px solid lightgray;
+            border-radius: 2px;
+
+            input {
+                display: inline;
+                margin-bottom: 4px;
+                border: none;
+            }
+
+            #tool {
+                display: inline;
+                width: 15px;
+                margin-top: 3px;
+            }
+        }
+
         
+    }
+
+    .ties {
+        display: block;
+        background-color: $primary-bg-color;
+
+        #styles {
+            
+            li{
+                float: left;
+                margin: $margin;
+                width: 10%;
+                padding-left: 0px;
+                vertical-align: top;
+            }
+
+            p {
+                display: block;
+            }
+        }
     }    
 
     

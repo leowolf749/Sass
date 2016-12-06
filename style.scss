@@ -1,1 +1,16 @@
+$primary-font-family: "ff-enzo-web",tahoma,sans-serif;
+$primary-font-size: .85em;
+$primary-font-color: white;
+$secondary-font-color: black;
+$tertiary-font-color: darkgray;
+$primary-bg-color: whitesmoke;
+$primary-display: flex;
+$secondary-display: inline-block;
+$margin: 0px;
+
 @import 'header';
+
+body {
+    margin: 0px;
+    font-family: $primary-font-family
+}
